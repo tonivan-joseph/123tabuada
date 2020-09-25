@@ -1,0 +1,88 @@
+*{ padding: 0; margin: 0; list-style: none ;}
+
+.cont_header {
+    background-color: slategray;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.form_container {
+    display: block;
+    width: 1100px;
+    max-width: 95%;
+    margin: 10px auto;
+}
+
+.form_container > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.form_container > label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.form_container .select {
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.form_container .button {
+    padding: 10px 18px;
+    font-size: 1em;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+
+.table {
+    display: flex;
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    background: gray;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: 200px;
+    max-width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.col h2 {
+    color: rgb(252, 236, 250);
+    padding: 5px ;
+}
+
+.col > ul {
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+.col > ul li {
+    padding: 7px 3px;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+footer {
+    margin: 10px 0 0 0;
+    padding: 30px 0;
+    background-color: darkslategray;
+}
+
+footer p {
+    padding-left: 110px;
+    color: white;
+    font-size: 1.2em;
+}
+
+
